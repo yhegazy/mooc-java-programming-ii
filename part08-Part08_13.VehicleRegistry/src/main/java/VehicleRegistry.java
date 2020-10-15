@@ -32,7 +32,7 @@ public class VehicleRegistry {
     public void printLicensePlates(){
         for(LicensePlate plate: this.registry.keySet()){
             if(this.registry.containsKey(plate)){
-                System.out.println(registry.keySet());
+                System.out.println(plate);
             }
         }
     }
